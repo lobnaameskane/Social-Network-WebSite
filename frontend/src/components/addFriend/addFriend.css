@@ -1,0 +1,43 @@
+.rightbarFriend {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .rightbarProfileImgContainer {
+    margin-right: 10px;
+    position: relative;
+  }
+  
+  .rightbarProfileImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  
+  .rightbarUsername{
+      font-weight: 500;
+  }
+  .addFriendButton{
+      border-radius: 10px;
+      padding: 5px;
+      margin-left: 11px;
+      cursor: pointer;
+      color: rgb(51, 145, 233);
+      background-color: white;
+      border-color: rgb(51, 145, 233);
+      
+      
+  }
+  .rightAline{
+    position:absolute;
+    right:20px; 
+      
+
+  }
+  .addFriendButton:hover{
+      color:white;
+      background-color: rgb(51, 145, 233);
+  }

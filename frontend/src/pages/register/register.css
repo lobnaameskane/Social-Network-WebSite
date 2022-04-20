@@ -1,0 +1,111 @@
+.login {
+    width: 100vw;
+    height: 70vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .loginWrapper {
+    width: 80%;
+    height: 80%;
+    
+  }
+  
+  .loginLeft {
+    width:40%;
+    height:40%;
+    justify-content: center;
+  }
+  
+  .loginLogo {
+    font-size: 50px;
+    font-weight: 800;
+    color: #536a79;
+    margin-bottom: 10px;
+  }
+  
+  .loginDesc {
+    font-size: 20px;
+    color: #1d7e58;
+    font-style: italic;
+
+  }
+  
+  .loginBox{
+      height: 460px;
+      padding: 20px;
+      width:500px;
+      background-color: #f0f2f5;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-top: 2.4rem;
+  }
+  
+  .loginInput{
+      height: 70px;
+      border-radius: 10px;
+      border: 1px solid gray;
+      font-size: 18px;
+      padding-left: 20px;
+      margin-bottom: 0.9rem;
+  }
+  
+  .loginInput:focus{
+      outline: none;
+  }
+  
+  .loginButton{
+      height: 70px;
+      border-radius: 10px;
+      border: none;
+      background-color: #12c27e;
+      color: white;
+      font-size: 20px;
+      font-weight: 500;
+      cursor: pointer;
+  }
+  .loginButton:hover{
+    background-color: #0f9b65;
+
+
+  }
+  
+  .loginForgot{
+      text-align: center;
+      color: #1775ee;
+  }
+  
+  
+.plus{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.loginTitle{
+    margin-top: 1.5rem;
+    font-size: 25px;                                                                                                                                                                                                                                                                                                                                                                                                         
+}
+.backButton{
+  background-color: #536a79;
+  margin-top: 1rem;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  align-self: center;
+  
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  width:460px;
+
+}
+.back{
+  color:white;
+}
+.backButton:hover{
+  background-color: #404c53;
+}

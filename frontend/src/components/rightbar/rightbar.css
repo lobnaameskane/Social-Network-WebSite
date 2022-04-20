@@ -1,0 +1,199 @@
+.rightbar {
+    flex: 2.85;
+    margin-left: 5rem;
+    
+  }
+  
+  .rightbarWrapper {
+    padding: 20px 20px 0 0;
+  }
+  
+  .birthdayContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .birthdayImg {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .birthdayText {
+    font-weight: 300;
+    font-size: 15px;
+  }
+  
+  .rightbarAd {
+    width: 100%;
+    border-radius: 10px;
+    margin: 30px 0;
+  }
+  
+  .rightbarTitle{
+      margin-bottom: 20px;
+  }
+  
+  .rightbarFriendList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .rightbarTitle{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-bottom: 19px;
+    margin-top: 23.8px;
+  }
+  
+  .rightbarInfo{
+    margin-bottom: 30px;
+  }
+  
+  .rightbarInfoItem{
+    margin-bottom: 10px;
+  }
+  
+  .rightbarInfoKey{
+    font-weight: 500;
+    margin-right: 15px;
+    color: #555;
+  }
+  
+  .rightbarInfoValue{
+    font-weight: 300;
+  }
+  
+  .rightbarFollowings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .rightbarFollowing{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+  }
+  .rightbarFollowingName{
+    margin-top: 3px;
+  }
+  
+  .rightbarFollowingImg{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  .rightbarImage{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+
+  }
+  .rightbarFollowButton{
+    margin-top: -15px;
+    margin-bottom: 52px;
+    
+    
+    color: #1872f2;
+    border-radius: 5px;
+    border-color: #1872f2;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .rightbarFollowButton:hover{
+    background-color: #1872f2;
+    color:white;
+  }
+  .rightbarEditButton{
+    margin-top: -55px;
+    margin-bottom: 10px;
+    margin-bottom: 52px;
+    background-color: #536a79;
+    
+    color: white;
+    border-radius: 5px;
+    
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    
+  }
+  .rightbarEditButton:hover{
+    background-color: white;
+    color:#536a79 ;
+    border-color: #536a79;
+    border-width: 2px;
+  }
+  .editContainer{
+        width: 100%;
+        height: 100%;            
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0.8;
+        z-index: 9;
+        margin: 20px;
+  }
+.editInput{
+     margin-bottom: 19px;
+     border-radius:3px;
+     padding: 6px;
+     width:70%;
+     border: none;
+     border-bottom: 2px solid #646069;
+     outline:none;
+     
+}
+.editSpan{
+  margin-left:15px;
+}
+.saveButton{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #536a79;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.saveButton:hover{
+    background-color: white;
+    color:#536a79 ;
+    border-color: #536a79;
+    border-width: 2px;
+}
+.followers{
+  font-size: 20px;
+  margin-top: 6px;
+  color: black;
+
+}
+.followers:hover{
+  cursor: pointer;
+  
+  
+  
+}
+.span{
+  margin-top: 4px;
+  font-size: 13px;
+}

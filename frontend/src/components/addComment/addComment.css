@@ -1,0 +1,23 @@
+
+  .form-control-add{
+    width:300px;
+    border-radius:3px;
+    border:none;
+    margin-left: 10px;
+
+  }
+.postProfileImg{
+  margin-right: 6px;
+
+  
+}
+.commentBtn{
+  border-radius:8px;
+  padding:5px;
+  margin-left:450px;
+  position:absolute;
+  background-color: rgb(30, 139, 240);
+  color:white;
+  border:none;
+
+}
